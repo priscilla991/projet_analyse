@@ -20,25 +20,30 @@ L’objectif est de créer :
 L’application suit une architecture en couches bien structurée, proche d’un environnement professionnel.
 
 ### 📁 2. Architecture du Projet
-projet_analyse/
+projet_analyse/  
 │
+  
 ├── data_loader/            # Chargement & validation des données
 │   ├── csv_loader.py
 │   └── data_validator.py
 │
+  
 ├── data_processor/         # Nettoyage & agrégations
 │   ├── cleaner.py
 │   ├── aggregator.py
 │   └── statistics.py
-│
+│ 
+  
 ├── visualization/          # Graphiques & rapport PDF
 │   ├── chart_builder.py
 │   └── report_generator.py
 │
+  
 ├── data/                   # Données sources (CSV)
 ├── outputs/                # Rapport PDF généré automatiquement
 ├── plots/                  # Graphiques générés
 │
+  
 ├── main.py                 # Point d’entrée principal
 ├── config.py               # Configuration centralisée (optionnel)
 ├── requirements.txt        # Dépendances Python
