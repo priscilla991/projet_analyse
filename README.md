@@ -1,168 +1,162 @@
-## 📊 Projet d’Analyse des Ventes – Python  
+## 📊 Plateforme d’Analyse de Données — Projet Python
 
-Ce projet a pour objectif de charger, valider, nettoyer et analyser un fichier de ventes, afin de produire :  
+Application modulaire permettant de charger, nettoyer, analyser et visualiser des données de ventes multi-sources.
 
-===> des statistiques descriptives  
+### 🧩 1. Description du Projet
 
-===> des visualisations graphiques  
+Ce projet a été réalisé dans le cadre d’un exercice complet d’architecture logicielle en Python.
+L’objectif est de créer :
 
-===> un rapport PDF complet  
+- un système robuste de chargement et validation de données CSV
 
-Il s’agit d’un pipeline de traitement de données 100% automatisé, conçu avec une architecture modulaire (loader → validation → nettoyage → stats → agrégation → visualisation → rapport).  
+- une couche de traitement et nettoyage avancé
 
-### 📁 Structure du projet  
-projet_analyse/  
-│  
-├── main.py                      # Script principal  
-├── config.py                    # Configuration globale  
+- des statistiques et agrégations automatiques
+
+- des visualisations professionnelles
+
+- un rapport PDF généré automatiquement
+
+L’application suit une architecture en couches bien structurée, proche d’un environnement professionnel.
+
+### 📁 2. Architecture du Projet
+projet_analyse/
 │
-  
-├── data/                        # Données brutes  
-│   └── ventes_2025.csv  
+├── data_loader/            # Chargement & validation des données
+│   ├── csv_loader.py
+│   └── data_validator.py
 │
-  
-├── data_loader/  
-│   ├── csv_loader.py            # Chargement CSV  
-│   └── data_validator.py        # Validation des données  
+├── data_processor/         # Nettoyage & agrégations
+│   ├── cleaner.py
+│   ├── aggregator.py
+│   └── statistics.py
 │
-  
-├── data_processor/  
-│   ├── cleaner.py               # Nettoyage et prétraitement  
-│   ├── aggregator.py            # Agrégations  
-│   └── preprocess.py  
+├── visualization/          # Graphiques & rapport PDF
+│   ├── chart_builder.py
+│   └── report_generator.py
 │
-  
-├── statistics/  
-│   └── stats.py                 # Calculs statistiques  
+├── data/                   # Données sources (CSV)
+├── outputs/                # Rapport PDF généré automatiquement
+├── plots/                  # Graphiques générés
 │
-  
-├── visualization/  
-│   ├── chart_builder.py         # Génération des graphiques  
-│   └── report_generator.py      # Génération du rapport PDF  
-│
-  
-├── plots/                       # Graphiques générés  
-├── outputs/                     # Rapport PDF  
-└── logs/                        # Log du programme  
+├── main.py                 # Point d’entrée principal
+├── config.py               # Configuration centralisée (optionnel)
+├── requirements.txt        # Dépendances Python
+└── README.md               # Documentation
 
-### 🚀 Installation  
+### 🚀 3. Fonctionnalités principales
+**🔹 Chargement & Validation**
 
-**1. Cloner le projet**  
-git clone <ton_repo_git>  
-cd projet_analyse  
+Lecture sécurisé de fichiers CSV
 
-**2. Créer un environnement virtuel**  
-python3 -m venv .venv  
-source .venv/bin/activate      # Linux/macOS  
-.venv\Scripts\activate         # Windows  
+Logs détaillés
 
-**3. Installer les dépendances**  
-pip install -r requirements.txt  
+Détection :
 
+valeurs manquantes
 
-Si aucune liste n’est fournie, installer manuellement :  
+doublons
 
-pip install pandas matplotlib reportlab  
+erreurs de types
 
-### ▶️ Exécution du projet  
-python main.py  
+**🔹 Nettoyage des données**
 
-### 🔄 Pipeline complet exécuté  
+Conversion des dates
 
-**1. Chargement des données**  
-
-Lecture du fichier CSV  
-
-Gestion des erreurs  
-
-**2. Validation**  
-
-Valeurs manquantes
-
-Doublons
-
-Info colonnes
-
-**3. Nettoyage**
-
-Correction des types
-
-Formatage texte
+Gestion des valeurs manquantes
 
 Suppression des doublons
 
-**4. Statistiques**
+Création de colonnes dérivées (total = prix * quantite)
 
-Ventes totales
+**🔹 Statistiques**
+
+Total des ventes
 
 Ventes par catégorie
 
-Quantité moyenne
+Quantité moyenne vendue
 
-Colonnes dérivées (ex: total = prix × quantité)
+Agrégations par mois et par ville
 
-**5. Agrégations**
-
-Ventes mensuelles
-
-Ventes par ville
-
-**6. Visualisation**
+**🔹 Visualisations**
 
 Graphique des ventes par catégorie
 
-Évolution mensuelle
+Graphique des ventes mensuelles
 
-Ventes par ville
+Graphique des ventes par ville
 
-Sauvegarde dans /plots
+Histogrammes / barres
 
-**7. Génération d’un rapport PDF**
+Toutes les images sont enregistrées dans /plots.
 
-Résumé statistiques
+**🔹 Rapport PDF**
 
-Graphiques intégrés
+Génération automatique d’un rapport PDF contenant :
 
-Rapport généré dans /outputs/rapport.pdf
+statistiques clés
 
-**📄 Exemple de sortie PDF**
+graphiques intégrés
 
-**Un rapport professionnel comprenant :**
+résumé des résultats
 
-- Page de résumé
+Le fichier est enregistré dans :
 
-- Statistiques détaillées
+outputs/rapport.pdf
 
-- Graphiques en couleur
+### 🛠️ 4. Installation & Exécution
+**► 1. Cloner le projet**
+git clone https://github.com/<ton-username>/projet_analyse.git
+cd projet_analyse
 
-- Format adapté à l’impression
+**► 2. Créer un environnement virtuel**
+python -m venv .venv
+source .venv/bin/activate   # Linux/Mac
+.venv\Scripts\activate      # Windows
 
-**🔧 Technologies utilisées**
+**► 3. Installer les dépendances**
+pip install -r requirements.txt
 
-Python 3
+**► 4. Lancer l’application**
+python main.py
 
-Pandas
 
-Matplotlib
+Les résultats s’affichent dans le terminal
+Les graphiques sont enregistrés dans : /plots
+Le rapport PDF dans : /outputs/rapport.pdf
 
-ReportLab
+**🧪 5. Tests unitaires (optionnel)**
 
-Logging intégré
+Des fichiers de test existent dans tests/.
 
-**🧪 Tests**
+Pour lancer tous les tests :
 
-Les tests unitaires sont prévus dans le dossier :
+pytest
 
-tests/
+**📊 6. Exemple de Données**
 
-**📌 Prochaines améliorations possibles**
+Les fichiers CSV doivent contenir (au minimum) :
 
-CLI avec argparse
+date,produit,categorie,prix,quantite,ville,source
+2025-01-01,Stylo,Fournitures,1.5,10,Paris,web
+...
 
-Interface graphique Tkinter
+**📝 7. Améliorations possibles**
 
-Export Excel / SQL
+API REST (FastAPI)
 
-Interface Web (Flask, FastAPI)
+Dashboard interactif (Streamlit)
 
-Dashboard interactif (Plotly Dash)
+Export Excel
+
+Tests d’intégration avancés
+
+Dockerisation
+
+**👤 8. Auteur**
+
+Projet réalisé par : **Priscilla**
+Formation : Administrateur Cloud SysOps — Projet d’Analyse de Données
+
+**🎉 Merci d’avoir consulté ce projet !**
