@@ -16,25 +16,31 @@ projet_analyse/
 ├── main.py                      # Script principal  
 ├── config.py                    # Configuration globale  
 │
+  
 ├── data/                        # Données brutes  
 │   └── ventes_2025.csv  
 │
+  
 ├── data_loader/  
 │   ├── csv_loader.py            # Chargement CSV  
 │   └── data_validator.py        # Validation des données  
 │
+  
 ├── data_processor/  
 │   ├── cleaner.py               # Nettoyage et prétraitement  
 │   ├── aggregator.py            # Agrégations  
 │   └── preprocess.py  
 │
+  
 ├── statistics/  
 │   └── stats.py                 # Calculs statistiques  
 │
+  
 ├── visualization/  
 │   ├── chart_builder.py         # Génération des graphiques  
 │   └── report_generator.py      # Génération du rapport PDF  
 │
+  
 ├── plots/                       # Graphiques générés  
 ├── outputs/                     # Rapport PDF  
 └── logs/                        # Log du programme  
