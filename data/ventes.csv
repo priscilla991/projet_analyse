@@ -1,0 +1,95 @@
+date,produit,categorie,prix,quantite,ville,source
+2025-01-01,Stylo,Fournitures,1.5,10,Paris,web
+2025-01-01,Cahier,Fournitures,3.0,5,Lyon,magasin
+2025-01-02,Souris,Electronique,25.0,2,Paris,web
+2025-01-03,Clavier,Electronique,80.0,3,Marseille,web
+2025-01-03,Stylo,Fournitures,1.5,20,Lyon,magasin
+2025-01-04,Cahier,Fournitures,3.0,,Lyon,web
+2025-01-04,Ecran,Electronique,350.0,1,Paris,web
+2025-01-05,Stylo,Fournitures,1.5,15,Paris,magasin
+2025-01-06,Webcam,Electronique,60.0,4,Lille,web
+2025-01-07,Tapis de souris,Fournitures,12.0,10,Bordeaux,magasin
+2025-01-08,Clavier,Electronique,80.0,2,Paris,web
+2025-01-09,Souris,Electronique,25.0,5,Lyon,magasin
+2025-01-10,USB-C Hub,Electronique,45.0,3,Marseille,web
+2025-01-11,Cahier,Fournitures,3.0,30,Lille,magasin
+2025-01-12,Ecran,Electronique,350.0,,Paris,web
+2025-01-13,Webcam,Electronique,60.0,2,Lyon,web
+2025-01-14,Tapis de souris,Fournitures,12.0,25,Paris,magasin
+2025-01-15,Stylo,Fournitures,1.5,50,Bordeaux,web
+2025-01-15,Stylo,Fournitures,1.5,50,Bordeaux,web
+2025-01-16,USB-C Hub,Electronique,45.0,5,Paris,magasin
+2025-01-17,Clavier,Electronique,80.0,,Marseille,web
+2025-01-18,Souris,Electronique,25.0,8,Lille,magasin
+2025-01-19,Cahier,Fournitures,3.0,15,Paris,web
+2025-01-20,Ecran,Electronique,350.0,2,Lyon,magasin
+2025-02-01,Stylo,Fournitures,1.5,12,Paris,web
+2025-02-02,Cahier,Fournitures,3.0,8,Lyon,magasin
+2025-02-03,Souris,Electronique,25.0,4,Paris,web
+2025-02-04,Clavier,Electronique,80.0,2,Marseille,web
+2025-02-05,Stylo,Fournitures,1.5,18,Lyon,magasin
+2025-02-06,Cahier,Fournitures,3.0,7,Lille,web
+2025-02-07,Ecran,Electronique,350.0,1,Paris,magasin
+2025-02-08,Stylo,Fournitures,1.5,14,Bordeaux,web
+2025-02-09,Webcam,Electronique,60.0,3,Lyon,magasin
+2025-02-10,Tapis de souris,Fournitures,12.0,11,Paris,web
+2025-02-11,Clavier,Electronique,80.0,3,Marseille,magasin
+2025-02-12,Souris,Electronique,25.0,6,Lille,web
+2025-02-13,USB-C Hub,Electronique,45.0,4,Paris,magasin
+2025-02-14,Cahier,Fournitures,3.0,20,Bordeaux,web
+2025-02-15,Ecran,Electronique,350.0,,Lyon,magasin
+2025-02-16,Webcam,Electronique,60.0,2,Paris,web
+2025-02-17,Tapis de souris,Fournitures,12.0,22,Marseille,magasin
+2025-02-18,Stylo,Fournitures,1.5,45,Lille,web
+2025-02-19,USB-C Hub,Electronique,45.0,3,Paris,magasin
+2025-02-20,Clavier,Electronique,80.0,,Lyon,web
+2025-03-01,Stylo,Fournitures,1.5,11,Paris,web
+2025-03-02,Cahier,Fournitures,3.0,6,Lyon,magasin
+2025-03-03,Souris,Electronique,25.0,3,Paris,web
+2025-03-04,Clavier,Electronique,80.0,4,Marseille,web
+2025-03-05,Stylo,Fournitures,1.5,19,Lyon,magasin
+2025-03-06,Cahier,Fournitures,3.0,9,Lille,web
+2025-03-07,Ecran,Electronique,350.0,2,Paris,magasin
+2025-03-08,Stylo,Fournitures,1.5,13,Bordeaux,web
+2025-03-09,Webcam,Electronique,60.0,5,Lyon,magasin
+2025-03-10,Tapis de souris,Fournitures,12.0,12,Paris,web
+2025-03-11,Clavier,Electronique,80.0,1,Marseille,magasin
+2025-03-12,Souris,Electronique,25.0,7,Lille,web
+2025-03-13,USB-C Hub,Electronique,45.0,2,Paris,magasin
+2025-03-14,Cahier,Fournitures,3.0,24,Bordeaux,web
+2025-03-15,Ecran,Electronique,350.0,1,Lyon,magasin
+2025-03-16,Webcam,Electronique,60.0,3,Paris,web
+2025-03-17,Tapis de souris,Fournitures,12.0,20,Marseille,magasin
+2025-03-18,Stylo,Fournitures,1.5,48,Lille,web
+2025-03-19,USB-C Hub,Electronique,45.0,6,Paris,magasin
+2025-03-20,Clavier,Electronique,80.0,2,Lyon,web
+2025-04-01,Stylo,Fournitures,1.5,9,Paris,web
+2025-04-02,Cahier,Fournitures,3.0,4,Lyon,magasin
+2025-04-03,Souris,Electronique,25.0,5,Paris,web
+2025-04-04,Clavier,Electronique,80.0,3,Marseille,web
+2025-04-05,Stylo,Fournitures,1.5,17,Lyon,magasin
+2025-04-06,Cahier,Fournitures,3.0,8,Lille,web
+2025-04-07,Ecran,Electronique,350.0,1,Paris,magasin
+2025-04-08,Stylo,Fournitures,1.5,16,Bordeaux,web
+2025-04-09,Webcam,Electronique,60.0,4,Lyon,magasin
+2025-04-10,Tapis de souris,Fournitures,12.0,9,Paris,web
+2025-04-11,Clavier,Electronique,80.0,,Marseille,magasin
+2025-04-12,Souris,Electronique,25.0,5,Lille,web
+2025-04-13,USB-C Hub,Electronique,45.0,3,Paris,magasin
+2025-04-14,Cahier,Fournitures,3.0,18,Bordeaux,web
+2025-04-15,Ecran,Electronique,350.0,2,Lyon,magasin
+2025-04-16,Webcam,Electronique,60.0,1,Paris,web
+2025-04-17,Tapis de souris,Fournitures,12.0,23,Marseille,magasin
+2025-04-18,Stylo,Fournitures,1.5,52,Lille,web
+2025-04-19,USB-C Hub,Electronique,45.0,4,Paris,magasin
+2025-04-20,Clavier,Electronique,80.0,2,Lyon,web
+2025-05-01,Stylo,Fournitures,1.5,13,Paris,web
+2025-05-02,Cahier,Fournitures,3.0,5,Lyon,magasin
+2025-05-03,Souris,Electronique,25.0,6,Paris,web
+2025-05-04,Clavier,Electronique,80.0,,Marseille,web
+2025-05-05,Stylo,Fournitures,1.5,21,Lyon,magasin
+2025-05-06,Cahier,Fournitures,3.0,10,Lille,web
+2025-05-07,Ecran,Electronique,350.0,1,Paris,magasin
+2025-05-08,Stylo,Fournitures,1.5,15,Bordeaux,web
+2025-05-09,Webcam,Electronique,60.0,2,Lyon,magasin
+2025-05-10,Tapis de souris,Fournitures,12.0,14,Paris,web

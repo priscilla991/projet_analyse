@@ -1,0 +1,6 @@
+2025-11-19 16:49:39,396 - INFO - __main__ - 
+=== CHARGEMENT DU FICHIER ===
+2025-11-19 16:49:39,396 - INFO - root - Tentative de chargement du fichier : data/ventes_2025.csv
+2025-11-19 16:49:39,398 - INFO - root - Chargement réussi (94 lignes).
+2025-11-19 16:49:39,398 - INFO - __main__ - 
+=== VALIDATION DES DONNÉES ===
