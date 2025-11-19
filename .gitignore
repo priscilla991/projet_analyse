@@ -1,0 +1,56 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# --- Virtual environment ---
+venv/
+.venv/
+
+# --- Logs ---
+logs/
+*.log
+
+# --- Configurations & credentials ---
+.env
+*.env
+config.ini
+settings.ini
+
+# --- IDEs ---
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Reports & generated outputs ---
+outputs/
+plots/
+
+# --- Temporary files ---
+*.tmp
+*.temp
+*.bak
+
+# --- Cache ---
+.cache/
+pytest_cache/
+pip-wheel-metadata/
